@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: utf-8
+  database: <%= ENV['GRAPE_DATABASE_NAME'] %>
+  pool: 5
+  username: developer
+  password: password
