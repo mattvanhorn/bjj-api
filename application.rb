@@ -53,6 +53,7 @@ ApplicationServer = Rack::Builder.new {
 #     run SprocketsApp
 #   end
 
+  set :logging, true
   map "/" do
     run API::Root
   end

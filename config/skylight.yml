@@ -4,3 +4,6 @@ application: jjmRbOLHyFym
 
 # The authentication token for the application.
 authentication: RlqI30E6-Qisey08YJUTfX8xwgnhih8CQJbOj2Omouc
+
+# Path to the Skylight log file
+log_file: log/skylight.log
