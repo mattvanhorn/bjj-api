@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# SINATRA IS NOT USED, BUT REQUIRED FOR CLOUD 66 DEPLOYMENT
+gem 'sinatra'
+
 gem 'grape'
 gem 'activerecord'
 gem 'grape-activerecord'
