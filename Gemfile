@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'sinatra'
-gem 'activerecord'
 gem 'grape'
+gem 'activerecord'
 gem 'grape-activerecord'
 gem 'grape-roar'
 gem 'pg'
